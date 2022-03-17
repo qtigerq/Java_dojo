@@ -1,7 +1,6 @@
 package TiagoMelo.demo;
 
 import org.junit.jupiter.api.Test;
-
 import java.util.ArrayList;
 import java.util.List;
 
@@ -14,6 +13,6 @@ public class SimpleSumTest {
         List<Integer> list = new ArrayList<>();
         list.add(1);
         list.add(2);
-        assertEquals(3, SimpleSum.sum(list));
+        assertEquals(3, TiagoMelo.demo.SimpleSum.sum(list));
     }
 }

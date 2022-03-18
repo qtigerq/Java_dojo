@@ -16,6 +16,5 @@ public class SimpleArea {
         } else {
             return "java.lang.Exception: Breadth and height must be positive";
         }
-
     }
 }

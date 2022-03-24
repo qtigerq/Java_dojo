@@ -19,8 +19,5 @@ public class SubstringCompare {
         System.out.println(subs.get(0));
         System.out.print(subs.get(subs.size()-1));
 
-        StringBuilder x = new StringBuilder();
-        String y = "teste";
-        y.equals(x);
     }
 }

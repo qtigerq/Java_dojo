@@ -9,5 +9,6 @@ public class TRASH {
 
     public static void trashcheck(String string, int subStringSize) {
     String test = "teste";
+
     }
 }

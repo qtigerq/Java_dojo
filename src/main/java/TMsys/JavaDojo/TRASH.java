@@ -1,16 +1,30 @@
 package TmSys.JavaDojo;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
-import java.util.Locale;
-import java.util.regex.Pattern;
-import java.util.regex.PatternSyntaxException;
+import java.io.*;
+import java.util.*;
 
 public class TRASH {
 
-    public static <test> void trashcheck(String string, int subStringSize) {
-    String test = "teste";
+    public static void main(String[] args) {
+
+        Scanner scanner = new Scanner(System.in);
+        int cases = scanner.nextInt();
+
+        while(scanner.hasNextLine()){
+
+            String line = scanner.nextLine();
+            String[] words = line.split(" ");
+            List<String> uniqueWords = new ArrayList<String>();
+
+            for (String item : words){
+
+                if (!uniqueWords.contains(item)) {
+                    uniqueWords.add(item);
+                }
+            }
+
+            System.out.println(uniqueWords.toString());
+        }
 
     }
 }
